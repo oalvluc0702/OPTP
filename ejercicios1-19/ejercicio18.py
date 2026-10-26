@@ -12,4 +12,4 @@ for venta in ventas:
     producto = venta[0]
     cantidad = venta[1]
     precio = venta[2]
-    print(f"{producto}: {calcularTotal(cantidad,precio)}")
+    print(f"{producto.upper()}: {calcularTotal(cantidad,precio)}")
