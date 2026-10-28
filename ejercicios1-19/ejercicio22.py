@@ -44,7 +44,7 @@ def altaNuevaVenta():
         
         anio_fabricacion = int(input("Dime un año de fabricación: "))
 
-        if not (1990 <= anio_fabricacion <= anio_venta) or not anio_fabricacion.is_integer:
+        if not (1990 <= anio_fabricacion <= anio_venta) or not anio_fabricacion.is_integer():
             raise ValueError("El año debe ser un entero entre 1990 y el año de la venta ")  
         
         precio = int(input("Dime el precio de la venta: "))
