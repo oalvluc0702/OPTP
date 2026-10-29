@@ -37,5 +37,6 @@ for j in videojuego_precio.values():
 videojuego = "Super Mario Maker"
 texto_final= ''
 for letra in videojuego:
-    texto_final = texto_final.join([letra.swapcase()])
+    texto_final += letra
     print(texto_final)
+
