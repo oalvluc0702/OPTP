@@ -22,3 +22,4 @@ class Gerente(Empleado):
 lista_empleados = [Empleado("Ana",1200), Vendedor("Carlos",1200,350),Gerente("Marta",2000,500)]
 for empleado in lista_empleados:
     print(f"{type(empleado).__name__}: {empleado.nombre} {empleado.calcular_sueldo()}€")
+
